@@ -1,0 +1,5 @@
+{
+  "name": "AI Ticket Prioritizer",
+  "description": "Upload a CSV of bug reports or customer tickets, and let AI analyze and rank them by urgency and severity to determine which should be addressed first.",
+  "requestFramePermissions": []
+}
