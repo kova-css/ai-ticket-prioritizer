@@ -1,4 +1,4 @@
-// netlify/functions/analyze.ts
+
 import { GoogleGenAI } from "@google/genai";
 
 type Ticket = Record<string, unknown>;

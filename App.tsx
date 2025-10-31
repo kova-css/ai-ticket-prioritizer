@@ -39,7 +39,6 @@ export default function App(): React.ReactElement {
   const [fileName, setFileName] = useState<string | null>(null);
   const [isMounted, setIsMounted] = useState(false);
 
-  // Expert Mode State
   const [isExpertMode, setIsExpertMode] = useState<boolean>(false);
   const [ticketType, setTicketType] = useState<string>('bug');
   const [customTicketType, setCustomTicketType] = useState<string>('');
@@ -47,12 +46,10 @@ export default function App(): React.ReactElement {
   const [severityWeight, setSeverityWeight] = useState<number>(1.0);
   const [isCategorizationEnabled, setIsCategorizationEnabled] = useState<boolean>(false);
 
-  // Filter, Sort & Export State
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [sortConfig, setSortConfig] = useState<SortConfig>({ key: 'priorityRank', direction: 'ascending' });
   const [exportFiltered, setExportFiltered] = useState<boolean>(true);
 
-  // Modal State
   const [isImportModalOpen, setIsImportModalOpen] = useState<boolean>(false);
 
   useEffect(() => {

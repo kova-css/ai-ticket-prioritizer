@@ -1,4 +1,3 @@
-// src/services/geminiService.ts
 import type { Ticket, AnalysisResult } from "../types";
 
 export async function analyzeTickets(
